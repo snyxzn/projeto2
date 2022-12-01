@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+    <link rel="stylesheet" href="estilo.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+
+</head>
+
+<body>
+    
+    <center><header><img src="logo01.png" alt="logo" class="logo"></header></center>
+
+
+    <nav class="navegacao">
+    
+        <h1 class="titulo">Sistema Brasileiro</h1>
+    
+        <br>
+
+<a href="index.html" class="on">Inicio</a> 
+<a href="historia.html" class="on">História</a>
+<a href="politica.html" class="on">Política</a>
+<a href="educacao.html" class="on">Educação</a>
+<a href="saude.html" class="on">Saúde </a>
+<a href="esporte.html" class="on">Esporte</a>
+<a class="off">Feedback</a>
+<a href="quem.html" class="on">Quem somos</a>
+
+</a>
+
+</nav>
+
+<div class="ava">
+
+<center><h1>Avaliação do Usuário</h1></center>
+
+<form action="#">
+
+<fieldset>
+
+<legend>
+    Identificação
+</legend>
+
+<br>
+
+<label for="Cnome">Nome Completo:</label>
+<input type="text" size="50px" name="nome" id="Cnome" placeholder="Insira seu nome aqui" style="text-align:center;" required>
+
+<br><br><br>
+
+<label for="idade">Sua faixa etária:</label>
+<select class="sl2" name="idade" id="idade">
+
+    <option value="idade 1">15 ou menos</option>
+    <option value="idade 2">16 a 20</option>
+    <option value="idade 3">21 a 30</option>
+    <option value="idade 4">31 a 40</option>
+    <option value="idade 5">41 a 50</option>
+    <option value="idade 6">51 ou mais</option>
+
+</select>
+
+<br><br>
+
+<legend>Região onde mora</legend>
+
+<br>
+
+<input type="radio" name="local" id="s" checked>
+<label for="s">Sul</label>
+
+<br>
+
+
+<input type="radio" name="local" id="se">
+<label for="se">Sudeste</label>
+
+<br>
+
+
+<input type="radio" name="local" id="n">
+<label for="n">Norte</label>
+
+<br>
+
+
+<input type="radio" name="local" id="ne">
+<label for="ne">Nordeste</label>
+
+<br>
+
+
+<input type="radio" name="local" id="co">
+<label for="co">Centroeste</label>
+
+<br> <br>
+
+<label for="outro">Outro:</label>
+<input type="text" size="19px" name="local" id="outro" placeholder="Digite a região onde mora">
+
+
+
+</fieldset>
+
+<br><br>
+
+
+
+
+<fieldset>
+
+<legend>Avaliação</legend>
+
+Como você acha que o conteudo foi abordado 
+
+<input type="radio" name="votacao" id="pessimo" checked>
+<label for="pessimo">Péssimo</label>
+
+<input type="radio" name="votacao" id="ruim">
+<label for="ruim">Ruim</label>
+
+<input type="radio" name="votacao" id="razoavel">
+<label for="razoavel">Razoavel</label>
+
+<input type="radio" name="votacao" id="bom">
+<label for="bom">Bom</label>
+
+<input type="radio" name="votacao" id="otimo">
+<label for="otimo">Ótimo</label>
+
+<br><br><br><br>
+
+Como você avalia os seguintes temas:
+
+<br><br>
+
+<nav class="opc">
+
+História
+
+<br><br>
+
+
+<select name="feed" id="feed">
+
+    <option value="pessimo">Péssimo</option>
+    <option value="ruim">Ruim</option>
+    <option value="razoavel" selected>Razoável</option>
+    <option value="bom">Bom</option>
+    <option value="otimo">Ótimo</option>
+
+
+
+</select>
+
+<br><br>
+
+Política
+
+<br><br>
+
+<select name="feed" id="feed">
+
+    <option value="pessimo">Péssimo</option>
+    <option value="ruim">Ruim</option>
+    <option value="razoavel" selected>Razoável</option>
+    <option value="bom">Bom</option>
+    <option value="otimo">Ótimo</option>
+
+
+
+</select>
+
+
+<br><br>
+
+Educação
+
+<br><br>
+
+
+<select name="feed" id="feed">
+
+    <option value="pessimo">Péssimo</option>
+    <option value="ruim">Ruim</option>
+    <option value="razoavel" selected>Razoável</option>
+    <option value="bom">Bom</option>
+    <option value="otimo">Ótimo</option>
+
+</select>
+
+
+<br><br>
+
+
+Saúde
+
+<br><br>
+
+
+<select name="feed" id="feed">
+
+    <option value="pessimo">Péssimo</option>
+    <option value="ruim">Ruim</option>
+    <option value="razoavel" selected>Razoável</option>
+    <option value="bom">Bom</option>
+    <option value="otimo">Ótimo</option>
+
+</select>
+
+<br><br>
+
+Esporte
+
+<br><br>
+
+<select name="feed" id="feed">
+
+    <option value="pessimo">Péssimo</option>
+    <option value="ruim">Ruim</option>
+    <option value="razoavel" selected>Razoável</option>
+    <option value="bom">Bom</option>
+    <option value="otimo">Ótimo</option>
+
+</select>
+
+</nav>
+
+<br><br><br>
+
+Esse conteúdo foi relevante para você?
+
+<input type="radio" name="votacao5" id="pessimo">
+<label for="pessimo">Não</label>
+
+<input type="radio" name="votacao5" id="ruim" >
+<label for="ruim">Talvez</label>
+
+<input type="radio" name="votacao5" id="razoavel" >
+<label for="razoavel">Sim</label>
+
+<br><br>
+
+</fieldset>
+
+<br><br><br>
+
+<fieldset>
+
+<center><label for="sugestao"> <p> O que você acha que poderia melhorar? </p></label>
+<textarea style="resize: none" name="" id="" cols="100" rows="10" placeholder="Insira aqui o seu comentário"></textarea></center>
+
+<br><br>
+
+<center> <button> Enviar </button></center>
+
+</fieldset>
+
+<br><br>
+
+</div>
+
+</form>
+
+
+
+
+<footer>Todos Direitos Reservados a Equipe do Mundo do Aprendizado &copy;</footer>
+
+
+
+</body>
+</html>
